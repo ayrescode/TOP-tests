@@ -5,5 +5,5 @@ test('Function exists', () => {
 });
 
 test('Function capitalises', () => {
-  expect(capitalise('hello').toBe('Hello'));
+  expect(capitalise('hello')).toBe('Hello');
 });
